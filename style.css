@@ -1,0 +1,575 @@
+*{
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #005a87;
+}
+
+.clear{
+    clear: both;
+}
+
+/* ----- TOP-SIDE -------*/
+
+.top-bar{
+    width: 80%;
+    height: 100px;
+    margin: 50px auto 0 ;
+    background: #007cba;
+    border-radius: 5px  5px 0 0;
+    display: flex;
+}
+
+.logo{
+    width: 18.5%;
+    min-width: 100px;
+    background: #fff;
+    background-image: url(/img/imperium.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px 0 0 0;
+   
+}
+
+.setor{
+    width: 60%;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #fff;
+    
+}
+
+.usuario{
+    width: 11%;    
+    background-image: url(/img/user.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.configuracao{
+    width: 11%;
+    background-image: url(/img/configuration.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+/*---- FIM TOP-SIDE -------*/
+
+/*-------CONTENT-CENTER---------*/
+
+.content-center{
+    width: 80%;
+    height: 400px;
+    background: rgb(228, 228, 228);
+    margin: auto;
+    display: flex;
+    border-radius: 0 0 5px 5px;
+    position: relative;
+}
+
+/*------PADRAO DE USADOS------------*/
+
+.display-padrao{
+    display: none;
+}
+
+.place-dash-padrao{
+    background-image: url(/img/dashboard.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.place-produtos-padrao{
+    background-image: url(/img/produtos.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.place-cliente-padrao{
+    background-image: url(/img/cliente.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.place-fornecedor-padrao{
+    background-image: url(/img/fornecedor.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.place-vendas-padrao{
+    background-image: url(/img/vendas.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.place-compras-padrao{
+    background-image: url(/img/compra.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.place-estoque-padrao{
+    background-image: url(/img/estoque.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.place-financeiro-padrao{
+    background-image: url(/img/financeiro.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.place-producao-padrao{
+    background-image: url(/img/producao.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.article-padrao{
+    margin:10px auto;
+    width: 97%;
+    height: 95%;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+.article-top-padrao{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    padding: 10px;
+}
+
+.article-bottom-padrao{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    padding: 10px;
+}
+
+.btn-menu-padrao{
+    width: 25%;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    text-align: center;
+}
+.left-padrao{
+    margin-left: 10px;
+}
+/*------PADRAO DE USADOS------------*/
+
+/*-------------ARTIGOS DASHBOARD---------*/
+.article-dashboard{
+   
+}
+
+.dashboard-1{
+
+}
+
+.dashboard-2{
+       
+}
+
+.dashboard-3{
+    
+}
+
+.dashboard-4{
+    
+}
+
+.dashboard-5{
+
+}
+
+.dashboard-6{
+    
+}
+
+.dashboard-7{
+    
+}
+
+.dashboard-8{
+    
+}
+
+/*------FIM DOS ARTIGOS DASHBOARD------*/
+
+
+
+/*-------------ARTIGOS PRODUTOS---------*/
+.article-produtos{
+    
+}
+
+.produtos-1{
+
+}
+
+.produtos-2{
+       
+}
+
+.produtos-3{
+    
+}
+
+.produtos-4{
+    
+}
+
+.produtos-5{
+
+}
+
+.produtos-6{
+    
+}
+
+.produtos-7{
+    
+}
+
+.produtos-8{
+    
+}
+
+
+/*---------- FIM ARTIGOS PRODUTOS-------*/
+
+/*-------------ARTIGOS CLIENTE---------*/
+.article-cliente{
+    
+}
+
+.cliente-1{
+
+}
+.cliente-2{
+
+}
+
+.cliente-3{
+
+}
+.cliente-4{
+
+}
+
+.cliente-5{
+
+}
+
+.cliente-6{
+
+}
+
+.cliente-7{
+
+}
+
+.cliente-8{
+
+}
+/*---------- FIM ARTIGOS CLIENTE-------*/
+
+/*-------------ARTIGOS FORNECEDOR---------*/
+
+.article-fornecedor{
+
+}
+
+.fornecedor-1{
+
+}
+
+.fornecedor-2{
+
+}
+
+.fornecedor-3{
+
+}
+
+.fornecedor-4{
+
+}
+
+.fornecedor-5{
+
+}
+
+.fornecedor-6{
+
+}
+
+.fornecedor-7{
+
+}
+
+.fornecedor-8{
+
+}
+
+/*---------- FIM ARTIGOS FORNECEDOR-------*/
+
+/*-------------ARTIGOS VENDAS---------*/
+.article-vendas{
+    
+}
+
+.vendas-1{
+
+}
+
+.vendas-2{
+
+}
+
+.vendas-3{
+
+}
+
+.vendas-4{
+
+}
+
+.vendas-5{
+
+}
+
+.vendas-6{
+
+}
+
+.vendas-7{
+
+}
+
+.vendas-8{
+
+}
+/*---------- FIM ARTIGOS VENDAS-------*/
+
+
+/*-------------ARTIGOS COMPRAS---------*/
+.article-compras{
+    
+}
+
+.compras-1{
+
+}
+
+.compras-2{
+
+}
+
+.compras-3{
+
+}
+
+.compras-4{
+
+}
+
+.compras-5{
+
+}
+
+.compras-6{
+
+}
+
+.compras-7{
+
+}
+
+.compras-8{
+
+}
+/*---------- FIM ARTIGOS COMPRAS-------*/
+
+
+/*-------------ARTIGOS ESTOQUE---------*/
+.article-estoque{
+      
+}
+
+.estoque-1{
+
+}
+
+.estoque-2{
+
+}
+
+.estoque-3{
+
+}
+
+.estoque-4{
+
+}
+
+.estoque-5{
+
+}
+
+.estoque-6{
+
+}
+
+.estoque-7{
+
+}
+
+.estoque-8{
+
+}
+/*---------- FIM ARTIGOS ESTOQUE-------*/
+
+
+/*-------------ARTIGOS FINANCEIRO---------*/
+.article-financeiro{
+        
+}
+
+.financeiro-1{
+
+}
+.financeiro-2{
+
+}
+.financeiro-3{
+
+}
+.financeiro-4{
+
+}
+.financeiro-5{
+
+}
+.financeiro-6{
+
+}
+.financeiro-7{
+
+}
+.financeiro-8{
+
+}
+/*---------- FIM ARTIGOS FINANCEIRO-------*/
+
+/*-------------ARTIGOS PRODUÇÃO---------*/
+.article-producao{
+    
+    
+}
+
+.producao-1{
+
+}
+.producao-2{
+
+}
+.producao-3{
+
+}
+.producao-4{
+
+}
+
+.producao-5{
+
+}
+
+.producao-6{
+
+}
+
+.producao-7{
+
+}
+
+.producao-8{
+
+}
+/*---------- FIM ARTIGOS PRODUÇÃO-------*/
+
+
+/*-------FIM CONTENT-CENTER---------*/
+
+
+
+
+/*-------------SIDE-BAR-------------*/
+
+.side-bar{
+    width: 18%;
+    min-width: 200px;
+    height: 400px;
+    background: #007cba;
+    border-radius: 0 0 0 5px;
+    text-align: right;
+    padding: 30px;
+
+}
+
+
+.div-padrao{
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    line-height: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.dashboard{
+    color: yellow;
+}
+
+
+
+/*-------------FIM SIDE-BAR-------------*/
+
+/*-----------------CENTER-BAR-----------*/
+.center-bar{
+    margin: auto;
+    width: 80%;
+    height: 95%;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0.5px rgba(0, 0, 0, 0.466) ;
+}
+
+/*-------------FIM CENTER-BAR-------------*/
