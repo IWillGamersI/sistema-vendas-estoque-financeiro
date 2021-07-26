@@ -188,8 +188,11 @@ body{
    
 }
 
-.dashboard-1{
-
+#dashboard-1{
+width: 60%;
+margin-top: 15px ;
+align-items: stretch;
+    
 }
 
 .dashboard-2{

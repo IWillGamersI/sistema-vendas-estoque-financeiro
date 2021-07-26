@@ -227,10 +227,9 @@ vendas.addEventListener('click', ()=>{
     sectionVendas.style.display = 'block'
 })
 
+//-----------FIM DA NAVEGAÇÃO DE MENU------------------------
+var dashboardBtn1Back = document.querySelector('.dashboard-1')
+const dashboardBtn1 = document.querySelector('#dashboard-1')
 
-
-
-
-
-
-
+dashboardBtn1Back.style.background = 'white'
+dashboardBtn1.src = 'img/user.png'
